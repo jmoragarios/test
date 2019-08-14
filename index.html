@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Responsive Page</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Hello World</h1>
+    <div class="imagesBlock">
+      <button onclick="document.getElementById('id01').style.display='block'" class="w3-button"><img src="images/carro1.jpg" alt=""></button>
+      <img src="images/carro2.jpg" alt="">
+      <img src="images/carro3.png" alt="">
+      <img src="images/carro4.jpg" alt="">
+      <img src="images/carro5.png" alt="">
+    </div>
+  </div>
+
+  <div id="id01" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('id01').style.display='none'"
+      class="w3-button w3-display-topright">&times;</span>
+      <div class="imgModal">
+        <img src="images/carro1.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
