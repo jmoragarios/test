@@ -7,6 +7,18 @@ function handleOnClickImg(e) {
     case "btnImg1":
         imgSrc = "images/carro1.jpg";
       break;
+      case "btnImg2":
+          imgSrc = "images/carro2.jpg";
+        break;
+        case "btnImg3":
+          imgSrc = "images/carro3.png";
+        break;
+        case "btnImg4":
+          imgSrc = "images/carro4.jpg";
+        break;
+        case "btnImg5":
+          imgSrc = "images/carro5.png";
+        break;
     default:
 
   }
