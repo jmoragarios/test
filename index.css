@@ -1,12 +1,11 @@
 body{
-  background-color: #01DFD7;
+  background-color: #FFFF;
 }
 img {
   max-width: 300px;
 }
 .imagesBlock {
   width: 100%;
-  text-align: center;
 }
 .w3-container{
   white-space: nowrap
@@ -14,6 +13,9 @@ img {
 @media (max-width: 430px)  {
   img {
     max-width: 100%;
+  }
+  .imagesBlock {
+    text-align: center;
   }
 
 }
